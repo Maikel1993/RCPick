@@ -1,0 +1,32 @@
+# Node / Next.js
+node_modules/
+.next/
+dist/
+out/
+
+# Python / FastAPI
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Base de datos SQLite
+*.db
+backend/*.db
+frontend/*.db
+
+# Entornos y config sensibles
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+logs/
+
+# VSCode
+.vscode/
